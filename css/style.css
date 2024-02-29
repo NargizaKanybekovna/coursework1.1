@@ -300,12 +300,14 @@ header {
 }
 
 .advice_tit {
-	font-size: 16px;
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
 	line-height: 50px;
 	letter-spacing: 0.20000000298023224px;
+	text-align: left;
 	color: #FFFF;
 	text-align: center;
-
 }
 
 .advice_txt {
@@ -316,6 +318,8 @@ header {
 	text-align: center;
 	color: #FFFF;
 	margin-bottom: 35px;
+	margin-top: 20px;
+	margin-bottom: 55px;
 }
 
 .card {
