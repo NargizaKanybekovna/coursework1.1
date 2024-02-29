@@ -102,6 +102,7 @@ section {
 	line-height: 57px;
 	text-align: center;
 	margin: 0 auto;
+
 }
 
 .color {
@@ -202,7 +203,8 @@ header {
 	bottom: 30px;
 	font-weight: 900;
 	text-align: left;
-
+	margin-bottom: 35px;
+	margin-top: 155px;
 }
 
 .home_txt {
@@ -213,27 +215,25 @@ header {
 	line-height: 30px;
 	letter-spacing: 0.0000000298023224px;
 	color: #FFFFFF;
+	margin-bottom: 40px;
 
 }
 
 .btn {
 	width: 182px;
 	height: 48px;
-	padding: 10px, 36px, 10px, 36px;
-	border-radius: 37px;
 	gap: 10px;
 	color: #FFFFFF;
 	margin-bottom: 55px;
 }
 
-.btn--learn {
+.btn_learn {
 	width: 155px;
 	height: 48px;
-	padding: 10px, 36px, 10px, 36px;
 	border-radius: 37px;
-	border: 1px;
-	gap: 10px;
-	color: #FFFF;
+	border: 1px solid #F6E4D7;
+	color: #FFFFFF;
+	margin: 0 auto;
 }
 
 .form_in {
@@ -244,6 +244,18 @@ header {
 	gap: 40px;
 	background: #FFFFFF;
 	position: relative;
+}
+
+.form_tit {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	color: #252B42;
+
+
 }
 
 .form_in_tit {
@@ -262,12 +274,11 @@ header {
 	border: 1px solid #BDBDBD;
 	width: 245px;
 	height: 50px;
-	padding: 11px, 150px, 11px, 21px;
 	border-radius: 5px;
 	border: 1px;
-	gap: 47px;
-	background: #F9F9F9
+	background: #F9F9F9;
 }
+
 
 .btn_blue {
 	width: 248px;
@@ -686,12 +697,13 @@ footer {
 
 }
 
-.footer_menu{
+.footer_menu {
 	width: 1041px;
-height: 170px;
-gap: 30px;
+	height: 170px;
+	gap: 30px;
 
 }
-.job_txt{
+
+.job_txt {
 	color: #FFFF;
 }
