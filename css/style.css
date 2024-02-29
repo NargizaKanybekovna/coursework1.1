@@ -1,0 +1,694 @@
+html,
+body {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+ul li:last-child {
+	margin-bottom: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+button,
+label {
+	cursor: pointer;
+}
+
+input,
+button,
+textarea {
+	background: none;
+	border: none;
+	outline: none;
+	display: block;
+	width: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+}
+
+input::placeholder {
+	color: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+input,
+textarea {
+	display: block;
+	resize: none;
+}
+
+body {
+	font-size: 14px;
+	line-height: 19px;
+	color: #242424;
+	width: 100%;
+	font-family: 'Martel', 'Montserrat', 'Open-Sans', arial sans-serif;
+}
+
+.container {
+	max-width: 1050px;
+	width: 100%;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+}
+
+.dn {
+	display: none;
+}
+
+section {
+	padding: 100px 0;
+}
+
+.sec_tit {
+	font-weight: 800;
+	font-size: 42px;
+	line-height: 57px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.color {
+	color: #BE963F;
+}
+
+.dib {
+	display: inline-block;
+}
+
+.hover {
+	transition: 0.3s;
+}
+
+.hover:hover {
+	color: #BE963F;
+}
+
+.btn {
+	border-radius: 10px;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #D0A144;
+	height: 85px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 14px 0;
+	transition: 0.3s;
+}
+
+.link {
+	transition: 0.3s;
+}
+
+.link:hover {
+	box-shadow: 0px 6px 5px 2px #836A36;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 3;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 40px 0;
+}
+
+.menu {
+	width: 373px;
+	height: 24px;
+	top: 40px;
+	left: 785px;
+
+}
+
+.menu a {
+	width: 42px;
+	left: 1px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 34px;
+}
+
+.home {
+	background: url(../img/background.png) no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+}
+
+.home_content {
+	max-width: 660px;
+}
+
+.home .sec_tit {
+	width: 450px;
+	height: 130px;
+	size: 58px;
+	Line-height: 65px;
+	color: #FFFFFF;
+	bottom: 30px;
+	font-weight: 900;
+	text-align: left;
+
+}
+
+.home_txt {
+	width: 376px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0.0000000298023224px;
+	color: #FFFFFF;
+
+}
+
+.btn {
+	width: 182px;
+	height: 48px;
+	padding: 10px, 36px, 10px, 36px;
+	border-radius: 37px;
+	gap: 10px;
+	color: #FFFFFF;
+	margin-bottom: 55px;
+}
+
+.btn--learn {
+	width: 155px;
+	height: 48px;
+	padding: 10px, 36px, 10px, 36px;
+	border-radius: 37px;
+	border: 1px;
+	gap: 10px;
+	color: #FFFF;
+}
+
+.form_in {
+	max-width: 328px;
+	margin: 0 auto;
+	padding: 40px;
+	border-radius: 10px;
+	gap: 40px;
+	background: #FFFFFF;
+	position: relative;
+}
+
+.form_in_tit {
+	width: 234px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: center;
+	color: #252B42;
+
+}
+
+.input {
+	display: block;
+	border: 1px solid #BDBDBD;
+	width: 245px;
+	height: 50px;
+	padding: 11px, 150px, 11px, 21px;
+	border-radius: 5px;
+	border: 1px;
+	gap: 47px;
+	background: #F9F9F9
+}
+
+.btn_blue {
+	width: 248px;
+	height: 58px;
+	padding: 15px, 40px, 15px, 40px;
+	border-radius: 5px;
+	gap: 10px;
+	background-color: #295C7A;
+	color: #FFFF;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+}
+
+.advice {
+	background: #252B42;
+}
+
+.advice_tit {
+	font-size: 16px;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	color: #FFFF;
+	text-align: center;
+
+}
+
+.advice_txt {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFF;
+	margin-bottom: 35px;
+}
+
+.card {
+	width: calc((100% - 31px)/3);
+	height: 385px;
+	background: #FFFF;
+
+}
+
+.card {
+	border-radius: 10px;
+	justify-content: space-between;
+}
+
+.advice.card_img {
+	width: 332px;
+}
+
+.card_img {
+	background: #F6E4D7 url(../img/icons/scales.svg) no-repeat;
+	padding-left: 200px;
+}
+
+.about {
+	background: #252B42;
+}
+
+.about_tit {
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+
+.about_txt {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+
+}
+
+.about_img {
+	width: 877px;
+}
+
+.comments {
+	background: #252B42;
+}
+
+.comment_card {
+	width: calc((100% - 35px) /3);
+	background: #DEDEDE;
+}
+
+.card_ic {
+	width: 22.01px;
+	height: 22.01px;
+	top: -0.01px;
+	padding: 1.83px, 1.83px, 1.83px, 1.83px;
+	background: url(../img/star.svg) no-repeat;
+	display: block;
+
+}
+
+.card_ic_disabled {
+	width: 22.01px;
+	height: 22.01px;
+	top: -0.01px;
+	left: 88.06px;
+	padding: 1.83px, 1.83px, 1.83px, 1.84px;
+	background: url(../img/disabledstar.svg) no-repeat;
+	display: block;
+}
+
+.comment_content {
+	width: 153px;
+}
+
+.comment_img {
+	width: 50px;
+	height: 50px;
+	border: 1px;
+}
+
+.comments_tit {
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	color: #FFFFFF;
+	margin-bottom: 27px;
+	text-align: center;
+}
+
+.comments_txt {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	margin-top: 27px;
+	color: #FFFFFF;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.card_txt {
+	width: 227px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	color: #737373;
+}
+
+.name_tit {
+	width: 88px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	color: #D0A144;
+}
+
+.attorneys {
+	background: #252B42;
+}
+
+.attorneys_tit {
+	height: 50px;
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+.attorneys_txt {
+	height: 40px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.attorneys_img {
+	background: #FFFFFF;
+	width: 328px;
+	height: 373px;
+}
+
+
+
+.attorney_tit {
+	width: 128px;
+	font-family: 'Martel';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	color: #252B42;
+	margin: 0 auto;
+}
+
+.attorneys_sec_txt {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	color: #737373;
+	text-align: center;
+}
+
+.attorneys_icons {
+	width: 92px;
+	height: 24px;
+	gap: 10px;
+	margin: 0 auto;
+
+}
+
+
+.attorneys_ic {
+	background: url(../img/icons/fb.svg) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	padding: 1px, 2px, 2px, 1px;
+
+}
+
+
+
+.attorneys_ic_inst {
+	background-image: url(../img/icons/inst.svg);
+}
+
+.attorneys_ic_tw {
+	background-image: url(../img/icons/tw-sm-2.svg);
+}
+
+.contact {
+	background: url(../img/contactbg.jpg) no-repeat;
+	background-size: cover;
+	height: 672px;
+}
+
+.contact_tit {
+	width: 89px;
+	height: 24px;
+	top: 40px;
+	left: 3px;
+	color: #FFFFFF;
+	font-family: 'Martel';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+}
+
+.contact_txt {
+	width: 458px;
+	height: 50px;
+	top: 64px;
+	font-family: 'Martel';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;
+	color: #FFFFFF;
+}
+
+.form_contact {
+	width: 602px;
+	height: 280px;
+}
+
+.form_input-cont {
+	width: 48%;
+	display: block;
+	border: 1px solid #BDBDBD;
+	height: 50px;
+	padding: 11px, 150px, 11px, 21px;
+	border-radius: 5px;
+	border: 1px;
+	gap: 47px;
+	background: #F9F9F9;
+
+}
+
+.form_input-cont_big {
+	width: 598px;
+	height: 148px;
+	border-radius: 5px;
+	border: 1px;
+}
+
+.btn_contact {
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #D0A144;
+	height: 85px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	padding: 14px 0;
+	transition: 0.3s;
+	border-radius: 5px;
+	color: #FFFF;
+}
+
+.consultation {
+	height: 142px;
+	background: #FAFAFA;
+}
+
+.consultation_content {
+	width: 454px;
+}
+
+.consultation_tit {
+	height: 32px;
+	font-family: 'Martel';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+	color: #252B42;
+	margin-bottom: 20px;
+}
+
+.consultation_txt {
+	height: 20px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+	color: #737373;
+}
+
+.btn_consultation {
+	width: 158px;
+	height: 58px;
+	padding: 15px, 40px, 15px, 40px;
+	border-radius: 5px;
+	gap: 10px;
+	background: #D0A144;
+	color: #FFFFFF;
+	text-align: center;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+
+footer {
+	background: #252B42;
+	color: #fff;
+}
+
+.litigade_icons {
+	width: 236px;
+	height: 24px;
+
+}
+
+.litigade_ic {
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+
+}
+
+.litigade_ic_fb {
+	background: url(../img/icons/fbook.svg) no-repeat;
+	display: block;
+
+}
+
+.litigade_ic_inst {
+	background: url(../img/icons/ins.svg) no-repeat;
+}
+
+.litigade_ic_tw {
+	background: url(../img/icons/tw.svg) no-repeat;
+
+}
+
+.litigade_ic_youtube {
+	background: url(../img/icons/youtube.svg) no-repeat;
+
+}
+
+.footer_menu{
+	width: 1041px;
+height: 170px;
+gap: 30px;
+
+}
