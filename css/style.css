@@ -334,13 +334,42 @@ header {
 	justify-content: space-between;
 }
 
+.list {
+	padding: 10px;
+	margin: 14px;
+	color: #737373;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+}
+
+a {
+	color: #D0A144;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.20000000298023224px;
+	padding:  35px;
+
+}
+
 .advice.card_img {
 	width: 332px;
 }
-
+.card_tit{
+	font-size: 22px;
+    line-height: 130px;
+    text-align: center;
+    margin: 0 auto;
+}
 .card_img {
+	
 	background: #F6E4D7 url(../img/icons/scales.svg) no-repeat;
-	padding-left: 200px;
+	padding-left: 100px;
+	
+	
 }
 
 .about {
@@ -371,7 +400,7 @@ header {
 }
 
 .about_img {
-	width: 877px;
+	
 }
 
 .comments {
