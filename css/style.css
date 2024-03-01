@@ -32,7 +32,9 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+
 }
+
 
 button,
 label {
@@ -105,23 +107,27 @@ section {
 	color: #FFFFFF;
 	animation: sec_tit 3s linear infinite;
 }
-@keyframes sec_tit{
-	0%{
-	opacity: 0.2;
-	transform: translateX( -30px);
+
+@keyframes sec_tit {
+	0% {
+		opacity: 0.2;
+		transform: translateX(-30px);
 	}
-5%{
-	opacity: 1;
-	transform: translateY(30px);
-}
-15%{
-	opacity: 1;
-	transform: translateX(-20px);
-}
-100%{
-	overflow: 0.2;
-	transform: translateY(20px);
-}
+
+	5% {
+		opacity: 1;
+		transform: translateY(30px);
+	}
+
+	15% {
+		opacity: 1;
+		transform: translateX(-20px);
+	}
+
+	100% {
+		overflow: 0.2;
+		transform: translateY(20px);
+	}
 }
 
 .color {
@@ -339,7 +345,7 @@ header {
 	margin-bottom: 35px;
 	margin-top: 20px;
 	margin-bottom: 55px;
-	
+
 }
 
 
@@ -426,8 +432,11 @@ a {
 	width: 22.01px;
 	background: url(../img/star.svg) no-repeat;
 	display: block;
-
+	
 }
+
+
+
 
 .card_ic_disabled {
 	width: 22.01px;
@@ -444,7 +453,9 @@ a {
 	width: 50px;
 	height: 50px;
 	border: 1px;
+	
 }
+
 
 .comments_tit {
 	font-family: 'Martel';
@@ -530,9 +541,7 @@ a {
 	margin-bottom: 5px;
 }
 
-.attorneys_icons {
-	
-}
+.attorneys_icons {}
 
 
 
@@ -541,13 +550,14 @@ a {
 	height: 21px;
 	background: url(../img/icons/fb.svg) no-repeat;
 	display: inline-block;
-	
+
 
 }
 
 .attorneys_ic_inst {
 	background-image: url(../img/icons/inst.svg);
 }
+
 .attorneys_ic_tw {
 	background-image: url(../img/icons/tw-sm-2.svg);
 }
@@ -570,11 +580,13 @@ a {
 	line-height: 24px;
 	letter-spacing: 0.10000000149011612px;
 }
-.sec_tit_contact{
+
+.sec_tit_contact {
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 50px;
-	letter-spacing: 0.20000000298023224px;	text-align: left;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
 	color: #FFFFFF;
 	margin-bottom: 35px;
 	margin-top: 5px;
@@ -622,10 +634,19 @@ a {
 	transition: 0.3s;
 	border-radius: 5px;
 	color: #FFFF;
+	animation: slide 5s ease-in-out infinite;
 }
+@keyframes slide {
+	from {
+		margin: 0;
+	}
 
+	to {
+		margin-left: 500px;
+	}
+}
 .consultation {
-	
+
 	background: #FAFAFA;
 }
 
