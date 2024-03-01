@@ -103,7 +103,25 @@ section {
 	text-align: center;
 	margin: 0 auto;
 	color: #FFFFFF;
-
+	animation: sec_tit 3s linear infinite;
+}
+@keyframes sec_tit{
+	0%{
+	opacity: 0.2;
+	transform: translateX( -30px);
+	}
+5%{
+	opacity: 1;
+	transform: translateY(30px);
+}
+15%{
+	opacity: 1;
+	transform: translateX(-20px);
+}
+100%{
+	overflow: 0.2;
+	transform: translateY(20px);
+}
 }
 
 .color {
@@ -321,19 +339,20 @@ header {
 	margin-bottom: 35px;
 	margin-top: 20px;
 	margin-bottom: 55px;
+	
 }
+
 
 .card {
 	width: calc((100% - 31px)/3);
 	height: 385px;
 	background: #FFFF;
-
-}
-
-.card {
 	border-radius: 10px;
 	justify-content: space-between;
+
 }
+
+
 
 .list {
 	padding: 10px;
@@ -352,25 +371,27 @@ a {
 	font-weight: 600;
 	line-height: 24px;
 	letter-spacing: 0.20000000298023224px;
-	padding:  35px;
+	padding: 35px;
 
 }
 
 .advice.card_img {
 	width: 332px;
 }
-.card_tit{
+
+.card_tit {
 	font-size: 22px;
-    line-height: 130px;
-    text-align: center;
-    margin: 0 auto;
+	line-height: 130px;
+	text-align: center;
+	margin: 0 auto;
 }
+
 .card_img {
-	
+
 	background: #F6E4D7 url(../img/icons/scales.svg) no-repeat;
 	padding-left: 100px;
-	
-	
+
+
 }
 
 .about {
@@ -390,9 +411,7 @@ a {
 
 
 
-.about_img {
-	
-}
+.about_img {}
 
 .comments {
 	background: #252B42;
@@ -487,15 +506,16 @@ a {
 
 
 
+
 .attorney_tit {
-	width: 128px;
 	font-family: 'Martel';
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
 	letter-spacing: 0.10000000149011612px;
 	color: #252B42;
-	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
 }
 
 .attorneys_sec_txt {
@@ -506,33 +526,28 @@ a {
 	letter-spacing: 0.20000000298023224px;
 	color: #737373;
 	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .attorneys_icons {
-	width: 92px;
-	height: 24px;
-	gap: 10px;
-	margin: 0 auto;
-
+	
 }
+
 
 
 .attorneys_ic {
+	width: 21px;
+	height: 21px;
 	background: url(../img/icons/fb.svg) no-repeat;
-	background-size: cover;
 	display: inline-block;
-	width: 24px;
-	height: 24px;
-	padding: 1px, 2px, 2px, 1px;
+	
 
 }
-
-
 
 .attorneys_ic_inst {
 	background-image: url(../img/icons/inst.svg);
 }
-
 .attorneys_ic_tw {
 	background-image: url(../img/icons/tw-sm-2.svg);
 }
@@ -555,7 +570,15 @@ a {
 	line-height: 24px;
 	letter-spacing: 0.10000000149011612px;
 }
-
+.sec_tit_contact{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.20000000298023224px;	text-align: left;
+	color: #FFFFFF;
+	margin-bottom: 35px;
+	margin-top: 5px;
+}
 
 
 .form_contact {
@@ -585,12 +608,11 @@ a {
 
 .btn_contact {
 	font-weight: 800;
-	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #D0A144;
-	height: 85px;
+	height: 58px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -603,7 +625,7 @@ a {
 }
 
 .consultation {
-	height: 142px;
+	
 	background: #FAFAFA;
 }
 
@@ -627,9 +649,6 @@ a {
 .btn_consultation {
 	width: 158px;
 	height: 58px;
-	padding: 15px, 40px, 15px, 40px;
-	border-radius: 5px;
-	gap: 10px;
 	background: #D0A144;
 	color: #FFFFFF;
 	text-align: center;
