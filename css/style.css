@@ -102,6 +102,7 @@ section {
 	line-height: 57px;
 	text-align: center;
 	margin: 0 auto;
+	color: #FFFFFF;
 
 }
 
@@ -310,7 +311,7 @@ header {
 	text-align: center;
 }
 
-.advice_txt {
+.sec_txt {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 20px;
@@ -387,17 +388,7 @@ a {
 	margin-bottom: 25px;
 }
 
-.about_txt {
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
-	letter-spacing: 0.20000000298023224px;
-	text-align: center;
-	color: #FFFFFF;
-	margin-bottom: 30px;
 
-}
 
 .about_img {
 	
@@ -414,9 +405,6 @@ a {
 
 .card_ic {
 	width: 22.01px;
-	height: 22.01px;
-	top: -0.01px;
-	padding: 1.83px, 1.83px, 1.83px, 1.83px;
 	background: url(../img/star.svg) no-repeat;
 	display: block;
 
@@ -425,9 +413,6 @@ a {
 .card_ic_disabled {
 	width: 22.01px;
 	height: 22.01px;
-	top: -0.01px;
-	left: 88.06px;
-	padding: 1.83px, 1.83px, 1.83px, 1.84px;
 	background: url(../img/disabledstar.svg) no-repeat;
 	display: block;
 }
@@ -453,17 +438,7 @@ a {
 	text-align: center;
 }
 
-.comments_txt {
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
-	letter-spacing: 0.20000000298023224px;
-	margin-top: 27px;
-	color: #FFFFFF;
-	margin-bottom: 80px;
-	text-align: center;
-}
+
 
 .card_txt {
 	width: 227px;
@@ -502,17 +477,7 @@ a {
 	margin-bottom: 15px;
 }
 
-.attorneys_txt {
-	height: 40px;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
-	letter-spacing: 0.20000000298023224px;
-	text-align: center;
-	color: #FFFFFF;
-	margin-bottom: 40px;
-}
+
 
 .attorneys_img {
 	background: #FFFFFF;
@@ -591,17 +556,7 @@ a {
 	letter-spacing: 0.10000000149011612px;
 }
 
-.contact_txt {
-	width: 458px;
-	height: 50px;
-	top: 64px;
-	font-family: 'Martel';
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 50px;
-	letter-spacing: 0.20000000298023224px;
-	color: #FFFFFF;
-}
+
 
 .form_contact {
 	width: 602px;
@@ -668,16 +623,6 @@ a {
 	margin-bottom: 20px;
 }
 
-.consultation_txt {
-	height: 20px;
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
-	letter-spacing: 0.20000000298023224px;
-	text-align: left;
-	color: #737373;
-}
 
 .btn_consultation {
 	width: 158px;
